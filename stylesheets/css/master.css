@@ -1,0 +1,55 @@
+h2 {
+  font-family: 'Cabin', sans-serif;
+}
+
+h4 {
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+ nav {
+  display: flex;
+    justify-content: center;
+    background-color: #3C3C3C;
+}
+
+nav li {
+  display: inline-block;
+  padding: 17px 10px;
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#hero {
+  background: url('../images/park.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+#hero img {
+  display: block;
+  margin: auto;
+  padding: 40px
+}
+
+#hero h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#hero h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#hero a {
+  font-size: 20px;
+  color: #76A0DF;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
